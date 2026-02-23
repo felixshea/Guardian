@@ -1,0 +1,13 @@
+{
+  "name": "guardian-monitor-bot",
+  "description": "Guardian Portfolio Agent — Offchain Event Monitor",
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "node bot/monitor.js",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 5
+  }
+}
