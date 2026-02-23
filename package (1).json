@@ -1,0 +1,15 @@
+{
+  "name": "guardian-telegram-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node telegram-bot.js",
+    "dev": "node --watch telegram-bot.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "viem": "^2.17.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

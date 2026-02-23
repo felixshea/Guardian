@@ -1,0 +1,25 @@
+# ── Telegram ──────────────────────────────────────────────────────────────────
+# Dapatkan dari @BotFather di Telegram
+TELEGRAM_BOT_TOKEN=1234567890:ABCdefGHIjklMNOpqrSTUvwxYZ
+
+# Chat ID lo (cari via @userinfobot) — pisahkan koma untuk multi-user
+# Gunakan * untuk allow semua (dev only!)
+TELEGRAM_ALLOWED_IDS=123456789,987654321
+
+# ── Agent Wallet ──────────────────────────────────────────────────────────────
+# Private key dari delegate wallet (bukan wallet utama lo!)
+# Wallet ini harus sudah didaftarkan sebagai delegate di GuardianCore
+AGENT_PRIVATE_KEY=0xYOUR_DELEGATE_WALLET_PRIVATE_KEY
+
+# ── Network ───────────────────────────────────────────────────────────────────
+BASE_RPC_URL=https://mainnet.base.org
+
+# ── Contracts ─────────────────────────────────────────────────────────────────
+GUARDIAN_CORE_ADDRESS=0x...
+PRICE_MODULE_ADDRESS=0x...
+WALLET_MODULE_ADDRESS=0x...
+TRADING_MODULE_ADDRESS=0x...
+RISK_MODULE_ADDRESS=0x...
+
+# ── Default user (wallet yang dimonitor) ──────────────────────────────────────
+DEFAULT_USER_WALLET=0xYOUR_MAIN_WALLET_ADDRESS
